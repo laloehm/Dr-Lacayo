@@ -128,3 +128,7 @@ footer {
 footer p {
   margin-bottom: 0;
 }
+
+footer .redes img {
+  width: 70px;
+}
