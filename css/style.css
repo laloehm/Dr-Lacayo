@@ -88,10 +88,14 @@ h3 {
 .subtitulo {
   color: #5759d4;
   text-transform: uppercase;
+  font-family: 'Copperlate';
 }
 
 .servicios a {
   color: #ac0bf7;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 
 .servicios img {
