@@ -3,13 +3,14 @@ $(window).scroll(function () {
     let logo = $('.logo');
     if ($("#navbar").offset().top > 300) {
         // $("#navbar").removeClass("navbar-expand-lg");
-        $(navbar).css('background', '#4948d2');
-        $(logo).css('width', '70px');
+        // $(navbar).css('background', '#4948d2');
+        $(navbar).css('background', '#fff');
+        // $(logo).css('width', '60px');
         $('.navbar-collapse').removeClass('mb-lg-5');
     } else {
         // $("#navbar").addClass("navbar-expand-lg");
         $(navbar).css("background", "transparent");
-        $(logo).css('width', '150px')
+        // $(logo).css('width', '150px')
         $('.navbar-collapse').addClass('mb-lg-5');
     }
 });
