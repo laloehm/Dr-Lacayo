@@ -15,3 +15,22 @@ $(window).scroll(function () {
         $('.navbar-collapse').addClass('mb-lg-5');
     }
 });
+
+/* Smooth scrolling para anclas */
+$("a.smooth").on("click", function (e) {
+    e.preventDefault();
+    var $link = $(this);
+    var anchor = $link.attr("href");
+    $("html, body")
+        .stop()
+        .animate({
+                scrollTop: $(anchor).offset().top - 100 + "px"
+            },
+            1000
+        );
+});
+
+$(".collapse").on("click", "a", function () {
+    $(".navbar-collapse").removeClass("show");
+    $(".navbar-toggler").removeClass("active");
+});
