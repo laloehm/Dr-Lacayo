@@ -349,7 +349,7 @@ footer .btn {
   }
 
   .home {
-    padding: 1rem 0;
+    padding: .5rem 0;
   }
 
   .home .carousel-item img {
@@ -362,6 +362,10 @@ footer .btn {
   .home .carousel-item img {
     position: relative;
     height: auto;
-    margin-top: 8rem;
+    margin-top: 6rem;
+  }
+
+  .carousel-indicators {
+    bottom: 5px;
   }
 }
