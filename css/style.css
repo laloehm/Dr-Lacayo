@@ -316,4 +316,42 @@ footer .btn {
   }
 }
 
-@media (max-width:575px) {}
+@media (max-width:767px) {
+
+
+  /* .home .carousel,
+  .home,
+  .home .carousel .carousel-inner {
+    height: auto;
+  } */
+
+  .home .carousel-item {
+    position: relative;
+    height: 100%;
+    color: #ffffff;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+  }
+
+  .home .carousel-item .row {
+    height: auto;
+  }
+
+  .home {
+    padding: 1rem 0;
+  }
+
+  .home .carousel-item img {
+    position: relative;
+    height: auto;
+  }
+}
+
+@media (max-width:576px) {
+  .home .carousel-item img {
+    position: relative;
+    height: auto;
+    margin-top: 8rem;
+  }
+}
