@@ -43,11 +43,23 @@ a {
 
 /* HEADER */
 
+.navbar {
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+
 .navbar a {
   font-family: 'Ananda';
   color: #ad0af9;
   font-size: 1.2rem;
   margin: 0 1rem;
+}
+
+.navbar.active {
+  background: rgb(73, 72, 210) !important;
 }
 
 .collapse.show {

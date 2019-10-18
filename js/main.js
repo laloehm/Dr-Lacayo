@@ -34,3 +34,12 @@ $(".collapse").on("click", "a", function () {
     $(".navbar-collapse").removeClass("show");
     $(".navbar-toggler").removeClass("active");
 });
+
+$('.navbar-toggler').on('click', function () {
+    // if ($('.navbar').css('background', 'rgb(73, 72, 210)')) {
+    $('.navbar').toggleClass('active')
+    // } else {
+    //     $('.navbar').css('background', 'rgb(73, 72, 210)')
+    // }
+
+})
