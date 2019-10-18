@@ -39,10 +39,5 @@ $(".collapse").on("click", "a", function () {
 
 $('.navbar-toggler').on('click', function () {
     $('.navbar').toggleClass('active');
+    $('#hamburger-icon').toggleClass('active')
 })
-
-var hamburger = $('#hamburger-icon');
-hamburger.click(function () {
-    hamburger.toggleClass('active');
-    return false;
-});

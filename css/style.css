@@ -51,6 +51,10 @@ a {
   -o-transition: .5s;
 }
 
+.navbar button:focus {
+  outline: 0;
+}
+
 .navbar a.nav-link {
   font-family: 'Ananda';
   color: #ad0af9 !important;
