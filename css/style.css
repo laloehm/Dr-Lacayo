@@ -45,9 +45,17 @@ a {
 
 .navbar a {
   font-family: 'Ananda';
-  color: #ad0af9 !important;
+  color: #ad0af9;
   font-size: 1.2rem;
   margin: 0 1rem;
+}
+
+.collapse.show {
+  background: rgb(73, 72, 210);
+}
+
+.collapse.show .nav-link {
+  color: #ffffff;
 }
 
 /* HOME */
@@ -195,3 +203,30 @@ footer .btn {
   font-size: .8rem;
   width: 100px;
 }
+
+
+/* Responsive */
+
+@media(max-width:991px) {
+
+  .navbar a {
+    color: #fff;
+  }
+
+  .servicios>.row,
+  .about>.row,
+  #contacto>.row {
+    padding: 1rem;
+  }
+
+  .titulos {
+    font-size: 1.6rem;
+  }
+
+  #contacto h3,
+  .about h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width:575px) {}
