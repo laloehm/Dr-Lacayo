@@ -36,10 +36,11 @@ $(".collapse").on("click", "a", function () {
 });
 
 $('.navbar-toggler').on('click', function () {
-    // if ($('.navbar').css('background', 'rgb(73, 72, 210)')) {
-    $('.navbar').toggleClass('active')
-    // } else {
-    //     $('.navbar').css('background', 'rgb(73, 72, 210)')
-    // }
-
+    $('.navbar').toggleClass('active');
 })
+
+var hamburger = $('#hamburger-icon');
+hamburger.click(function () {
+    hamburger.toggleClass('active');
+    return false;
+});
