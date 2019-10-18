@@ -151,6 +151,16 @@ a {
   background: #ad0af9 !important;
 }
 
+.home .agendar {
+  color: black;
+  padding: .5rem 1rem;
+  background: #faf081;
+  border-radius: 30px;
+  font-size: .7em;
+  display: inline-block;
+  margin-left: 4rem;
+}
+
 .home .carousel,
 .home .carousel .carousel-inner {
   height: 100%;
