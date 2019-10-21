@@ -336,8 +336,19 @@ footer .btn {
     color: #ffffff;
   }
 
+  .home .carousel-item .item-prueba {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .home .carousel-item .item-prueba h2 {
+    font-size: 1rem;
+  }
+
   .home .carousel-item .row {
     height: auto;
+    position: absolute;
   }
 
   .home {
@@ -354,11 +365,11 @@ footer .btn {
   }
 
   .home h4 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .home p {
-    font-size: 1rem;
+    font-size: .8rem;
   }
 
 
@@ -367,8 +378,12 @@ footer .btn {
 @media (max-width:576px) {
   .home .carousel-item img {
     position: relative;
-    height: auto;
-    margin-top: 6rem;
+    height: 250px;
+    /* margin-top: 6rem; */
+  }
+
+  .home {
+    height: 80vh;
   }
 
   .carousel-indicators {
