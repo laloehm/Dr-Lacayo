@@ -369,7 +369,7 @@ footer .btn {
   }
 
   .home p {
-    font-size: .8rem;
+    font-size: .7rem;
   }
 
 
@@ -383,10 +383,15 @@ footer .btn {
   }
 
   .home {
-    height: 80vh;
+    height: 65vh;
   }
 
   .carousel-indicators {
     bottom: 5px;
+  }
+
+  .home .agendar {
+    margin-left: 0;
+    font-size: .65rem;
   }
 }
